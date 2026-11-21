@@ -124,3 +124,9 @@ react-native-sdk/sounds
 tests/.env
 test-results
 
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+

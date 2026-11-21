@@ -204,6 +204,7 @@
   },
   "license": "Apache-2.0",
   "scripts": {
+    "build": "make all",
     "android-autolinking": "node android/scripts/generate-autolinking.js",
     "android-clean-cmake-cache": "find android node_modules -type d -name .cxx -prune -exec rm -rf {} +",
     "lint": "eslint --ext .js,.ts,.tsx,.mts --max-warnings 0 . && tsc --noEmit",
